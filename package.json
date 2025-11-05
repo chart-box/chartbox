@@ -1,0 +1,13 @@
+{
+  "name": "chartbox-calendar-sync",
+  "version": "1.0.0",
+  "description": "자동으로 Notion DB를 가져와 events.js로 변환",
+  "main": "scripts/build-events.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-events.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.10"
+  }
+}
