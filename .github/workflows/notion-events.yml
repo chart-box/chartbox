@@ -2,7 +2,7 @@ name: Notion → events.js
 
 on:
   schedule:
-    - cron: "*/30 * * * *"    # 30분마다 자동 실행
+    - cron: "*/5 * * * *"    # 5분마다 자동 실행
   workflow_dispatch:           # 수동 실행 버튼
 
 jobs:
@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write          # events.js 커밋하려면 필요
+
+    concurrency:               # 동시에 두 번 돌지 않게 막기
+      group: calendar-sync
+      cancel-in-progress: true
 
     steps:
       - name: Checkout
