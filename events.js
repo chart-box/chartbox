@@ -1,14 +1,9 @@
 // 자동 생성됨: Notion DB → events.js
 window.EVENTS = [
   {
-    "title": "한번더 테스트",
-    "start": "2025-11-07",
-    "url": "https://youtube.com/channel/UCJRncd13sC274kDxvEufZSA?si=H16s5Zi5e0JLGJFi"
-  },
-  {
-    "title": "테스트입니다.",
+    "title": "시황공유",
     "start": "2025-11-06",
-    "url": "https://naver.com"
+    "url": "https://www.notion.so/11-6-2a3312e0f9a480bca09bd405c7699fb0?source=copy_link"
   },
   {
     "title": "시황공유",
