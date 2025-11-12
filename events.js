@@ -19,5 +19,15 @@ window.EVENTS = [
     "title": "시황공유",
     "start": "2025-11-07",
     "url": "https://www.notion.so/11-7-2a4312e0f9a4804881c0e7d6d7165b64?source=copy_link"
+  },
+  {
+    "title": "시황공유",
+    "start": "2025-11-12",
+    "url": "https://www.notion.so/11-12-2a9312e0f9a48093b54bd1158c70631a?source=copy_link"
+  },
+  {
+    "title": "방송",
+    "start": "2025-11-11",
+    "url": "https://youtu.be/D3gQRCuezTI"
   }
 ];
