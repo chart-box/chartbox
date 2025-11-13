@@ -29,5 +29,10 @@ window.EVENTS = [
     "title": "방송",
     "start": "2025-11-11",
     "url": "https://youtu.be/D3gQRCuezTI"
+  },
+  {
+    "title": "방송",
+    "start": "2025-11-12",
+    "url": "https://youtu.be/WGE4h2_YhCg?si=4spPPSggtmadK79a"
   }
 ];
